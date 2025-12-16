@@ -7,6 +7,12 @@ import cookieParser from 'cookie-parser'
 import fileupload from 'express-fileupload'
 import createTables from './config/init.js'
 
+asd
+awdaw
+das
+da
+wd
+aw
 //Inicializando as dependências
 dotenv.config();
 const app = express();
