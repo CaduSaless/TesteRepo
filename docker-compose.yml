@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  blog_db:
+    image: postgres:16
+    container_name: FS_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: FSEVENTOS
+      POSTGRES_PASSWORD: fseventos_123
+      POSTGRES_DB: FSEventosDB
+    ports:
+      - "5431:5432"
+    volumes:
+      - blog_data:/var/lib/postgresql/data
+
+volumes:
+  blog_data:
