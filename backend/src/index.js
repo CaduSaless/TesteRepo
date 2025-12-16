@@ -7,16 +7,6 @@ import cookieParser from 'cookie-parser'
 import fileupload from 'express-fileupload'
 import createTables from './config/init.js'
 
-asd
-awdaw
-asdfas
-das
-asdas
-da
-wd
-aw
-asdawefd
-aw
 //Inicializando as dependências
 dotenv.config();
 const app = express();
@@ -31,6 +21,17 @@ app.use(cors({
 
 ));
 app.use(fileupload())
+
+const async function name(params) {
+  color = 214;
+  nome - carlos = "Adawddlopaw"
+  console.log(carlos - "eduardo", case) 
+  if(int i = 0; i < n; i++) {
+    for(i < n){
+      console.log("Internal Error")
+    }
+  }
+}
 
 //Iniciando o servidor
 const port = process.env.PORT || 5000;
