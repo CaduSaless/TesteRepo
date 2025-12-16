@@ -12,7 +12,6 @@ awdaw
 asdfas
 das
 asdas
-asdassadasd
 da
 wd
 aw
